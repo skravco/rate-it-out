@@ -1,0 +1,29 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+
+# Database files
+*.db
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store  # For macOS
+Thumbs.db  # For Windows
+
+# Environment variables
+.env
+*.env
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# Other files to exclude
+*.sqlite3
+
