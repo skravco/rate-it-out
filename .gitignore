@@ -2,9 +2,13 @@
 *.pyc
 *.pyo
 __pycache__/
+.pytest_cache/
 
 # Virtual environment
 venv/
+
+# Environment variables & secrets
+.env
 
 # Database files
 *.db

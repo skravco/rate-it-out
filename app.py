@@ -1,10 +1,12 @@
 from flask import Flask, render_template, request
 import sqlite3
+import os
+
 from mailware import send_mail
 
 app = Flask(__name__)
 
-DATABASE = 'feedback.db'
+DATABASE = os.getenv('DATABASE', 'feedback.db')
 
 def get_db():
     """Helper function to get the database connection."""
